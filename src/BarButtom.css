@@ -39,10 +39,10 @@
 
 .photoPerfil{
   background-image: url('../public/assets/photoPerfil.png');
+  background-size: cover;
   width: 7rem;
   height: 7rem;
   border-radius: 100%;
-  background-size: cover;
   margin-bottom: 2rem;  
 }
 
@@ -64,11 +64,7 @@ hr{
 }
 
 @media screen and (max-width: 320px) {
-  .profile p{
-    font-size: 15px;
-  }
-
-  .developer{
-    font-size: 14px
+  .profile p, .developer{
+    font-size: 14px;
   }
 }
