@@ -1,0 +1,74 @@
+.profile, .container-all,
+.linksAlign, .socials-align{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container-all{
+  padding: 2rem;
+  box-sizing: border-box;
+  /* border: 1px solid #A5AB5F; */
+  background-color: #2F2A25;
+  border-radius: 15px;
+  box-shadow: 4px 7px 15px rgba(0, 0, 0, 0.479);
+}
+
+.profile h1{
+  font-family: "Josenfin";
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.profile h3{
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff3700;
+  margin-bottom: 1.5rem;
+}
+
+.profile p{
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.photoPerfil{
+  background-image: url('../public/assets/photoPerfil.png');
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  background-size: cover;
+  margin-bottom: 2rem;  
+}
+
+.socials-align{
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1.5rem 0;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid #a5abaf;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.developer{
+  color: #b5bec444;
+}
+
+@media screen and (max-width: 320px) {
+  .profile p{
+    font-size: 15px;
+  }
+
+  .developer{
+    font-size: 14px
+  }
+}
