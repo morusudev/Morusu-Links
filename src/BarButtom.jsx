@@ -28,7 +28,7 @@ function ButtonsComp() {
 
       { id: 3, 
         name: "ArtStation", 
-        link: "https://artstation.com/inkmors", 
+        link: "https://artstation.com/morusu", 
         title: "ArtStation" 
 
       },
@@ -48,7 +48,7 @@ function ButtonsComp() {
         <div className='photoPerfil'></div>
         <h1>Vinícius Lima</h1>
         <h3>Desenvolvedor Full-Stack JS</h3>
-        <p>&lt; Don't wait, put it into practice! /&gt;</p>
+        <p>&lt; Não espere, coloque em prática! /&gt;</p>
       </div>
 
       <hr />
@@ -62,7 +62,7 @@ function ButtonsComp() {
       <div className='socials-align'>
         <Socials link='https://github.com/inkmors' img='../assets/icons8-github-50.png' title='Github' />
         <Socials link='https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/' img='../assets/icons8-linkedin-48.png' title='Linkedin' />
-        <Socials link='https://www.instagram.com/morusu.ink/' img='../assets/icons8-instagram-48.png' title='Instagram' />
+        <Socials link='https://www.instagram.com/morusu.ink' img='../assets/icons8-instagram-48.png' title='Instagram' />
         <Socials link='mailto:gvlima.contato@gmail.com' img='../assets/icons8-nova-mensagem-48.png' title='Email' />
       </div>
 
