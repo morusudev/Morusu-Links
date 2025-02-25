@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import "./class.css"
-import LinksBar from '../../Components/LinksBar'
+import LinksBar from '../../Components/LinksBar/LinksBar'
 
 function Class(){
 
