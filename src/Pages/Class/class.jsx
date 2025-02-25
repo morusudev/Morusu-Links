@@ -74,7 +74,7 @@ function Class(){
                 ))}  
             </div>
 
-            <LinksBar id="btnCallClass" link="https://www.instagram.com/morusu.ink/" name="Quero ser aluno(a)" />
+            <LinksBar id="btnCallClass" target="_blank" link="https://www.instagram.com/morusu.ink/" name="Quero ser aluno(a)" />
             <LinksBar link="/" name="Voltar" />
 
             <p className="developer">MorusuDev&copy; all rights reserved {new Date().getFullYear()}</p>

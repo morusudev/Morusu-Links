@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import LinksBar from '../../Components/LinksBar'
-import Socials from '../../Components/Socials'
+import LinksBar from '../../Components/LinksBar/LinksBar'
+import Socials from '../../Components/Socials/Socials'
 
 import './home.css'
 
