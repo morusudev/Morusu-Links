@@ -1,19 +1,36 @@
-# Morusu Links
-Link panel developed with React.js, to store short but important information!
+# 🔗 Morusu Links 🔗
+Desenvolvido por: Vinícius Lima
 
-## Getting Started with React.JS
+### 📚 [ PT-BR ] 
 
-This project was bootstrapped with [Morusu Links](https://morusu.vercel.app/).
+## 📜 Sobre a aplicação
 
-## Available Scripts
+*Desenvolvida com **React.JS**, a **Morusu Links**, veio para trazer a funcionalidade de uma espécie de cartão de visita, com informações resumidas, através de **links** que redirecionam o usuário a algo do seu interesse.*
 
-In the project directory, you can run:
+### *Atualmente conta com:*
+    - Uso de rotas para levar o usuário para telas de aulas particulares ou voltar para tela inicial.
 
-### `npm start`
+    - Totalmente componentizada, o que deixa a aplicação bem mais leve, de código limpo e reutilizado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esse projeto está sendo hospedado pela ***Vercel***, e caso tenha interesse, pode acesar clickando no link: ***[Morusu Links](https://morusu.vercel.app/).***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Qualquer dúvida, estou a dispósição, até breve^^**
+
+
+### 📚 [ EN ] 
+
+## 📜 About the application
+
+*Developed with **React.JS**, **Morusu Links** came to bring the functionality of a type of business card, with summarized information, through **links** that redirect the user to something of interest.*
+
+### *It currently has:*
+    - Use of routes to take the user to private class screens or return to the home screen.
+
+    - Fully componentized, which makes the application much lighter, with clean and reused code.
+
+This project is being hosted by ***Vercel***, and if you are interested, you can access it by clicking on the link: ***[Morusu Links](https://morusu.vercel.app/).***
+
+**Any questions, I'm at your disposal, see you soon^^**
+
+
 
