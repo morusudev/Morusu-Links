@@ -38,7 +38,7 @@
 }
 
 .photoPerfil{
-  background-image: url('../public/assets/photoPerfil.png');
+  background-image: url('../../../public/assets/photoPerfil.png');
   background-size: cover;
   width: 7rem;
   height: 7rem;

@@ -18,6 +18,7 @@
   margin: 0;
   font-family: "Mulish";
   font-weight: 500;
+  box-sizing: border-box;
 }
 
 body {

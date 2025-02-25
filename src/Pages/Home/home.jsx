@@ -1,41 +1,46 @@
-import { useEffect, useState } from 'react';
-import LinksBar from './Components/LinksBar';
-import Socials from './Components/Socials';
+import { useEffect, useState } from 'react'
+import LinksBar from '../../Components/LinksBar'
+import Socials from '../../Components/Socials'
 
-import './BarButtom.css';
+import './home.css'
 
-function ButtonsComp() {
+function Home() {
   useEffect(() => {
-    document.title = 'Morusu | Links';
+    document.title = 'Morusu | Home'
   }, []);
 
-  const [options, setOptions] = useState([]);
+  const [options, setOptions] = useState([])
 
   useEffect(() => {
     setOptions([
       { id: 1, 
         name: "Portfólio", 
-        link: "https://portfolio-morusu.vercel.app/", 
+        link: "https://portfolio-morusu.vercel.app/",
+        target: "_blank", 
         title: "Portfólio" 
       },
       
       { 
         id: 2, 
         name: "Discord", 
-        link: "https://discord.gg/7zS4wEdtdk", 
+        link: "https://discord.gg/7zS4wEdtdk",
+        target: "_blank", 
         title: "Discord" 
       },
 
       { id: 3, 
         name: "ArtStation", 
         link: "https://artstation.com/morusu", 
+        target: "_blank", 
         title: "ArtStation" 
 
       },
 
       { id: 4, 
         name: "Aulas Particulares", 
-        link: "https://www.superprof.com.br/aprenda-zero-com-desenvolvedor-fullstack-aulas-programacao-html-css-javascript-python-logica.html", 
+        link: "/class",
+        // https://www.superprof.com.br/aprenda-zero-com-desenvolvedor-fullstack-aulas-programacao-html-css-javascript-python-logica.html
+        target: "_parent", 
         title: "Super Profs" 
       }
     ]);
@@ -55,7 +60,7 @@ function ButtonsComp() {
 
       <div className="linksAlign">
         {options.map((option) => (
-          <LinksBar key={option.id} name={option.name} link={option.link} title={option.title} />
+          <LinksBar key={option.id} name={option.name} target={option.target} link={option.link} title={option.title} />
         ))}  
       </div>
 
@@ -71,4 +76,4 @@ function ButtonsComp() {
   );
 }
 
-export default ButtonsComp;
+export default Home
