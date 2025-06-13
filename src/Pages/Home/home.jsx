@@ -15,7 +15,7 @@ function Home() {
     setOptions([
       { id: 1, 
         name: "Portfólio", 
-        link: "https://portfolio-morusu.vercel.app/",
+        link: "https://morusudev.com.br/",
         target: "_blank", 
         title: "Portfólio" 
       },
@@ -65,7 +65,7 @@ function Home() {
       </div>
 
       <div className='socials-align'>
-        <Socials link='https://github.com/inkmors' img='../assets/icons8-github-50.png' title='Github' />
+        <Socials link='https://github.com/morusudev' img='../assets/icons8-github-50.png' title='Github' />
         <Socials link='https://www.linkedin.com/in/vin%C3%ADcius-lima-738603284/' img='../assets/icons8-linkedin-48.png' title='Linkedin' />
         <Socials link='https://www.instagram.com/morusu.ink' img='../assets/icons8-instagram-48.png' title='Instagram' />
         <Socials link='mailto:gvlima.contato@gmail.com' img='../assets/icons8-nova-mensagem-48.png' title='Email' />
